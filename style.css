@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: deepskyblue;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    color: black;
+    padding: 10px 30px;
+    transition: all .15s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
