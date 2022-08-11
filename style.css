@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: deepskyblue;
+    background-color: rgba(0,0, 0, 0.5);
     position: sticky;
     top: 0;
 }
@@ -21,12 +21,13 @@
 }
 
 .navbar ul li{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .navbar ul li a{
+    text-decoration: none;
     color: black;
     padding: 10px 30px;
     transition: all .15s ease;
@@ -37,3 +38,89 @@
     color: white;
     box-shadow: 0 0 10px black;
 }
+
+/*Home Section*/
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0, 0, 0.5);
+    height: 525px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('./images/beach.jpg');
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+    
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    right: 40%;
+    
+}
+.headings{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+    margin:40px 0px;
+}
+
+/* about section */
+#about{
+    display: flex;
+    flex: auto;  
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: bisque;
+}
+#pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+#headingstwo {   
+    text-align: center;
+    
+}
+
+#pic img {
+    width: 575px;
+    height: 400px;    
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
