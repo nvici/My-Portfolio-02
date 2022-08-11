@@ -42,8 +42,7 @@
 /*Home Section*/
 #home {
     display: flex;
-    flex-direction: column;
-    background-color: rgba(0,0, 0, 0.5);
+    flex-direction: column;    
     height: 525px;
     justify-content: center;
     align-items: center;
@@ -60,7 +59,7 @@
     height: 600px;
     width: 100%;
     z-index: -1;
-    opacity: .8;
+    
     
 }
 .name {
@@ -84,8 +83,7 @@
     display: flex;
     flex: auto;  
     box-sizing: border-box;
-    padding: 20px;
-    margin-bottom: 50px;
+    padding: 20px;    
     background-color: bisque;
 }
 #pic{
@@ -124,3 +122,27 @@ p{
     font-size: 25px;
 }
 
+/*Work Section*/
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: deepskyblue;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
